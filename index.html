@@ -35,6 +35,10 @@
         constructor() {
             this.converter = new showdown.Converter()
             this.main = document.getElementById("main")
+
+            const urlSearchParams = new URLSearchParams(window.location.search);
+            const params = Object.fromEntries(urlSearchParams.entries());
+            this.page = params.page
         }
 
         convert(markdown) {
@@ -42,7 +46,7 @@
         }
 
         async run() {
-            const r = await fetch("/MEMO.md")
+            const r = await fetch(`/${this.page.toUpperCase()}.md`)
             const d = await r.text()
             this.main.innerHTML = this.convert(d)
 
