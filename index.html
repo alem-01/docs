@@ -46,10 +46,10 @@
         }
 
         getUrl() {
-            const url = `/${this.page.toUpperCase()}.md`
-            return url
+            const host = `${window.location.protocol}//${window.location.host}/`
+            const path = `${window.location.pathname.split('/').slice(0, -1).join('')}/${this.page.toUpperCase()}.md`
+            return host + path
         }
-
         async run() {
             const r = await fetch(this.getUrl())
             const d = await r.text()
