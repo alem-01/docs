@@ -45,8 +45,13 @@
             return this.converter.makeHtml(markdown)
         }
 
+        getUrl() {
+            const url = `${window.location.pathname.split('/').slice(0, -1).join('')}/${this.page.toUpperCase()}.md`
+            return url
+        }
+
         async run() {
-            const r = await fetch(`/${this.page.toUpperCase()}.md`)
+            const r = await fetch(this.getUrl())
             const d = await r.text()
             this.main.innerHTML = this.convert(d)
 
