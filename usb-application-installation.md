@@ -35,8 +35,8 @@ nano /home/student/.local/share/applications/discord.desktop
 [Desktop Entry]
 Encoding=UTF-8
 Name=Discord
-Exec=/home/student/applications/Discord/usr/bin/discord
-Icon=/home/student/applications/Discord/usr/share/discord/discord.png
+Exec=/home/student/applications/discord/usr/bin/discord
+Icon=/home/student/applications/discord/usr/share/discord/discord.png
 Terminal=false
 Type=Application
 Categories=Development;
