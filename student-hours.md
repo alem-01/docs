@@ -37,7 +37,7 @@ Dec 11 12:56:51 ALEM-F4-R02-09 alem-student-logger[1437]: 2022/12/11 12:56:51.08
 - **2-ой способ:**
 3. 1. Подождать 10 минут пока на дискорд сервере у вас не появится роль `in-campus`.
 
-<img alt="image-discord-in-campus" src="./img/student-hours/student-with-role-in-campus.jpeg" style="max-width:420px"/>
+<img alt="image-discord-in-campus" src="./img/student-hours/student-with-role-in-campus.jpeg" style="width:420px"/>
 
 
 ### Eсли программа не считывает часы
