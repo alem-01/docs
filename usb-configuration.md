@@ -1,22 +1,24 @@
-# USB CONFIGURATION
+# Настройка USB 
+## Зачем?
+USB накопитель настраивают для того чтобы у вас была под рукой файловая система с прогрессом работы на компьютере. Получается подключая настроенную флешку к любому алемовскому компьютеру, у вас будет автоматически загружаться весь ваш рабочий стол, приложения, файлы и тд.
 
-Requirements:
-
+## Требования:
 1. 32 GB
 2. USB 3.x
 
-Follow the steps:
+## Сама настройка
+Следуйте шагам:
 
-1. Execute the "Disks" program
-2. Choose the USB drive to configure and "Format Disk"
+1. Запустите программу "Disks"
+2. Выберите USB накопитель для настроки и нажмите на "Format Disk"
 
 ![img1](img/usb-configuration/1.png)
 
-3. Choose "Compatible with modern systems and hard disks > 2TB(GPT)"
+3. Выберите "Compatible with modern systems and hard disks > 2TB(GPT)"
 
 ![img3](img/usb-configuration/2.png)
 
-4. Create a new partition using all the free space
+4. Создайте новый partition выбрав все свободное пространство
 
 - Volume name: `any`
 - Erase: `no`
@@ -24,7 +26,7 @@ Follow the steps:
 
 ![img6](img/usb-configuration/3.png)
 
-5. Choose F2FS
+5. Выберите F2FS
 
 ![img7](img/usb-configuration/4.png)
 
@@ -32,6 +34,18 @@ Follow the steps:
 
 ![img8](img/usb-configuration/5.png)
 
-7. The new name must be "01-home"
+7. Название должно быть "01-home"
 
 ![img9](img/usb-configuration/6.png)
+
+## Проверка:
+1. Подключите настроенную флешку к свободному алемовскому компьютеру.
+2. Войдите в систему.
+3. Попробуйте создать какой-либо файл.
+4. Выйдите из системы.
+5. Повторите 1 и 2 шаг.
+6. Проверьте наличие созданного вами файла.
+7. Если вами созданный файл в наличии, тогда поздравляю, вы успешно настроили флешку. В ином случае повторите все с начала начиная с настройти флешки.
+
+## Полезные ссылки:
+- [Установка програм на флешке](usb-application-installation.md)
