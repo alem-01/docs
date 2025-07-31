@@ -5,7 +5,7 @@
 Helpers - люди, помогающие команде alem:
 
 - examiners - экзаменаторы (студенты, проверяющие экзамен)
-- raid-auditors - аудиторы (студенты, проверяющие рейды бассейнеров)
+- crunch-reviewers - reviewers (студенты, проверяющие кранчи буткемперов)
 
 ## Hot Links:
 
@@ -14,4 +14,4 @@ Helpers - люди, помогающие команде alem:
 Правила которые должен знать каждый helper.
 
 - [examiners](examiners.md) - Правила и гайдлайны для экзаменаторов.
-- [raid-auditors](raid-auditors.md) - Правила и гайдлайны для аудиторы.
+- [crunch-reviewers](crunch-reviewers.md) - Правила и гайдлайны для reviewers.
